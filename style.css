@@ -91,6 +91,7 @@ header h1 {
 	font-family: 'Proxima Nova Bold';
 	color: #ffffff;
 	margin-left: 50px;
+	margin-top: 12%;
 	}
 header h1 .one {
 	position: relative;
@@ -178,8 +179,8 @@ header .lines{
 	width: 7px;
 	transform: rotate(45deg);
 	position: relative;
-	top: -500px;
-	left: 600px;
+	top: -505px;
+	left: 575px;
 	z-index: 2;
 }
 .atlet {
@@ -220,13 +221,13 @@ header .lines{
 	text-transform: uppercase;
 	font-size: 60px;
 	color: #e6e6e6;
-	margin-bottom: 16vh;
+	margin-bottom: 11vh;
 	margin-top: -10vh;
 }
 
 .text_atlet p {
 	font-family: 'Proxima Nova Regular';
-	font-size: 14px;
+	font-size: 20px;
 	margin-bottom: 13vh;
 }
 .text_atlet2 {
@@ -241,16 +242,16 @@ header .lines{
 	text-transform: uppercase;
 	font-size: 60px;
 	color: #e6e6e6;
-	margin-bottom: 16vh;
-	margin-top: -10vh;
-	margin-left: 23vh;
+	margin-bottom: 15%;
+	margin-top: -15%;
+    margin-left: 25%;
 }
 
 .text_atlet2 p {
 	font-family: 'Proxima Nova Regular';
-	font-size: 14px;
-	margin-bottom: 13vh;
-	margin-left: 23vh;
+	font-size: 20px;
+	margin-bottom: 11vh;
+	margin-left: 25%;
 }
 .tire1 {
 	width: 22px;
@@ -263,7 +264,7 @@ header .lines{
 	height: 5px;
 	background-color: #5e42b0;
 	border-radius: 3px;
-	margin-left: 23vh;
+	margin-left: 25%;
 }
 .square {
 	clear: both;
@@ -402,7 +403,7 @@ header .lines{
 	text-transform: uppercase;
 	margin-top: 114px;
 	margin-bottom: 95px;
-	margin-left: 13vh;
+	margin-left: 7%;
 }
 
 .container3 img{
@@ -417,19 +418,22 @@ header .lines{
 	font-family: 'Proxima Nova Bold';
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	margin-left: 13vh;
-	padding-top: 65px;
+	margin-left: 7%;
+
 }
 
 .container3 .text_center span{
-	font-size: 18px;
+	font-size: 20px;
 	border-bottom: 5px solid #5e42b0;
 	color: #000000;
 	position: relative;
 	top: -10px;
 }
+.container3 .block3 .center .bottom_p{
+	padding-top: 70px;
+}
 .container3 .text_center .white{
-	font-size: 18px;
+	font-size: 20px;
 	border-bottom: 5px solid #ffffff;
 	color: #5e42b0;
 	position: relative;
@@ -471,7 +475,7 @@ header .lines{
 	max-width: 1920px;
 }
 
-.seto h1 {
+.seto .center h1 {
 	font-size: 90px;
 	font-family: 'Proxima Nova Bold';
 	color: #ffffff;
@@ -482,7 +486,7 @@ header .lines{
 	z-index: 2;
 }
 
-.seto p{
+.seto .center p{
 	font-family: 'Proxima Nova Bold';
 	color: #a496ca;
 	font-size: 34px;
@@ -493,7 +497,7 @@ header .lines{
 	position: relative;
 	z-index: 2;
 }
-.seto .lines{
+.seto .center .lines{
 	background-color: #5e42b0;
 	height: 405px;
 	width: 7px;
@@ -503,7 +507,7 @@ header .lines{
 	left: 1055px;
 	z-index: 1;
 }
-.seto .lines2{
+.seto .center .lines2{
 	background-color: #5e42b0;
 	height: 202px;
 	width: 7px;
@@ -604,35 +608,388 @@ footer .logo {
 		margin-top: 220px;
 	}
 }
+@media(max-width: 960px){
+	.container2 .block3 .text_center {
+		padding-top: 13px;
+		margin-bottom: 20px;
+	}
+
+	header{
+		height: 80vh;
+	}
+	.container2 .text_center span {
+		font-size: 15px;
+	}
+	.container2 .text_center {
+		font-size: 28px;
+	}
+	.container2 .text_bottom1{
+		font-size: 16px;
+	}
+	.container2 .text_bottom{
+		font-size: 16px;
+	}
+	.container3 .text_center span {
+		font-size: 15px;
+	}
+	.container3 .text_center {
+		font-size: 28px;
+	}
+	.container3 .text_bottom1{
+		font-size: 16px;
+	}
+	.container3 .text_bottom{
+		font-size: 16px;
+	}
+	.atlet .runner{
+		height: 50vh;
+	}
+	.negr{
+		height: 50vh;
+	}
+	.team .girl{
+		height: 50vh;
+	}
+	.fon{
+		height: 50vh;
+	}
+	.square{
+		width: 130px;
+		height: 130px;
+		font-size: 20px;
+		top: 14vh;
+	}
+	.square h3{
+		font-size: 24px;
+		margin: 53px 0 10px 0;
+	}
+	.text_atlet h2{
+		font-size: 40px;
+		margin-bottom: 5vh;
+		margin-top: -15vh;
+	}
+	.text_atlet p{
+		margin-bottom: 5vh;
+	}
+	.text_atlet2 h2{
+		font-size: 40px;
+		margin-bottom: 5vh;
+		margin-top: -15vh;
+	}
+	.text_atlet2 p{
+		margin-bottom: 5vh;
+	}
+}
 @media(max-width: 1750px){
-	header h1{
-		font-size: 60px;
+	.seto .center h1{
+		font-size: 85px;
+	}
+	.seto .lines{
+		height: 350px;
+		top: -235px;
+
+	}
+	.seto .lines2{
+		height: 175px;
+		top: -490px;
+	}
+}
+@media(max-width: 1660px){
+	.text_atlet2 h2 {
+		margin-left: 10%;
+		padding-right: 70px;
+	}
+	.text_atlet2 p {
+		margin-left: 10%;
+	}
+	.tire2 {
+		margin-left: 10%;
 	}
 }
 
 @media(max-width: 1550px){
 	.container2 img{
 		margin-left: 0;
+		width: 45%;
+	}
+	.container3 img{
+		width: 70%;
+		margin-left: -30vh;
+	}
+	.container3 .text_center{
+		margin-left: 0;
+	}
+	.container3 .text_bottom{
+		margin-left: 0;
+	}
+	.container3 .text_bottom1{
+		margin-left: 0;
+	}
+	.container3 .block1 h2 {
+		margin-left: 0;
+	}
+	header h1{
+		font-size: 85px;
+	}
+	header .lines{
+		left: 500px;
+		height: 350px;
+		top: -485px;
+	}
+	.text_atlet2 h2 {
+		margin-left: -10%;
+		margin-top: -20%;
+	}
+	.text_atlet2 p {
+		margin-left: -10%;
+	}
+	.tire2 {
+		margin-left: -10%;
+	}
+	.seto .logos{
+		height: 120px;
+		margin-left: 20%;
+	}
+	.seto .center h1{
+		font-size: 70px;
+		margin-top: -115px;
+		margin-left: 30%;
+	}
+	.seto .center p{
+		margin-left: 30%;
+	}
+	.seto .center .lines{
+		top: -240px;
+		left: 825px;
+		height: 360px;
+	}
+	.seto .center .lines2{
+		top: -500px;
+    	left: 480px;
 	}
 }
-
+@media(max-width: 1450px){
+	.container3 .block1 h2 {
+		margin-bottom: 50px;
+		margin-top: 60px;
+	}
+	.container3 img{
+		margin-top: -40px;
+	}
+	.container2 img{
+		margin-top: -40px;
+	}
+	.container3 .block2 .text_center{
+		padding-top: 0;
+	}
+	.container3 .block3 .center .bottom_p {
+		padding-top: 25px;
+	}
+	.container3 .block3 {
+		height: 165px;
+	}
+	.container2 .block3 .center .bottom_p {
+		padding-top: 25px;
+	}
+	.container2 .block3 {
+		height: 165px;
+	}
+	.container2 .block2 .text_center{
+		padding-top: 0;
+	}
+	.container2 .block1 h2 {
+		margin-bottom: 50px;
+		padding-left: 50%;
+		margin-top: 70px;
+	}
+	.container2 .block3 .text_bottom1{
+		padding-left: 50%;
+	}
+	.container2 .block3 .text_center{
+		padding-left: 50%;
+		padding-top: 30px;
+	}
+	.container2 .text_bottom{
+		padding-left: 50%;
+	}
+	.container2 .text_center{
+		padding-left: 50%;
+	}
+	.seto .logos{
+		margin-top: 150px;
+	}
+}
 @media(max-width: 1250px){
-	header h1, .container2 .block1 h2{
+	.container2 .block1 h2{
+		font-size: 70px;
+	}
+	.container3 .block1 h2{
 		font-size: 70px;
 	}
 	.container2 img{
-		width: 50%;
+		width: 45%;
+	}
+	.container3 img{
+		width: 60%;
+	}
+	.container3 .text_bottom{
+		padding-right: 50%;
+	}
+	header h1{
+		font-size: 70px;
+	}
+
+	header .lines{
+		left: 400px;
+		height: 300px;
+   		 top: -461px;
+	}
+	header .menu li a{
+		padding: 0 10px;
+	}
+	footer .logo {
+		margin-left: 100px;
+	}
+	.end .right_text {
+		margin-right: 100px;
+	}
+	.seto .logos{
+		margin-left: 17%;
+	}
+	.seto .center .lines{
+		top: -220px;
+   		left: 770px;
+    	height: 320px;
+	}
+	.seto .center .lines2 {
+		top: -470px;
+	}
+	.text_atlet2 p{
+		padding-right: 80px;
 	}
 }
 
 @media(max-width: 1024px){
-	header h1, .container2 .block1 h2{
+	header h1, .container2 .block1 h2, .seto .center h1, .container3 .block1 h2{
 		font-size: 56px;
 	}
 	header .menu li a{
 		padding: 0 10px;
 	}
+	header .lines{
+		left: 330px;
+    	height: 250px;
+    	top: -430px;
+	}
+	.seto .center .lines{
+		top: -170px;
+		left: 610px;
+		height: 260px
+	}
+	.seto .center .lines2{
+		top: -375px;
+    	left: 330px;
+		height: 160px;
+	}
+	.seto .center p{
+		font-size: 25px;
+	}
+	.seto .center h1 {
+		margin-top: -95px;
+	}
+	.seto .buttons {
+		margin-top: -300px;
+	}
+	.seto .logos {
+		margin-left: 14%;
+	}
+	.text_atlet2 h2{
+		margin-top: -50%;
+	}
 }
+@media(max-width: 860px){
+	.seto .center h1{
+		font-size: 46px;
+		margin-left: 28%;
+		margin-top: -75px;
+	}
+	.seto .center p{
+		font-size: 18px;
+		margin-left: 28%;
+	}
+	.seto .logos{
+		height: 85px;
+	}
+	.seto .center .lines {
+		top: -130px;
+		left: 480px;
+		height: 200px;
+	}
+	.seto .center .lines2 {
+		top: -285px;
+		left: 275px;
+		height: 120px;
+	}
+	.seto .buttons{
+		margin-top: -170px;
+	}
+	.text_atlet2 h2{
+		margin-left: -25%;
+	}
+	.text_atlet2 p{
+		margin-left: -25%;
+	}
+	.tire2{
+		margin-left: -25%;
+	}
+	.text_atlet p{
+		padding-right: 15px;
+	}
+	header .lines {
+		left: 290px;
+    	height: 220px;
+    	top: -490px;
+	}
+	header h1{
+		font-size: 46px;
+		margin-top: 15%;
+	}
+	header .buttons a{
+		margin: 10px 10%;
+	}
+	header .buttons{
+		margin-top: 20vh;
+	}
+	header .buttons a:first-child{
+		margin: auto;
+	}
+	.seto .buttons a{
+		margin: 10px 10%;
+	}
+	.seto .buttons a:first-child{
+		margin-right: 70px;
+	}
+	.text_atlet{
+		margin-left: 100px;
+	}
+	.text_atlet2 h2{
+		margin-top: -18vh;
+	}
+	footer .logo{
+		margin-left: 40px;
+	}
+	.end .right_text{
+		margin-right: 40px;
+	}
+	.end .icons i{
+		font-size: 20px;
+	}
+	header .menu{
+		margin-right: 17%;
+    	margin-top: 12%
+	}
+}
+
 
 @media(max-width: 768px){
 	header h1, .container2 .block1 h2{
@@ -640,6 +997,7 @@ footer .logo {
 	}
 	header .menu li a{
 		padding: 0 5px;
+		font-size: 15px;
 	}
 	header .buttons a{
 		display: block;
@@ -649,10 +1007,77 @@ footer .logo {
 		margin-right: auto;
 		margin-bottom: 20px;
 	}
+	header .lines{
+		left: 265px;
+   		height: 190px;
+   		top: -540px;
+	}
+	header .menu{
+		text-align: center;
+		float: none;
+		margin: 23% auto 0 auto;
+		}
+	header .buttons{
+		margin-top: 10vh;
+	}
 }
+@media(max-width: 650px){
+	.atlet .fon .val{
+		margin-top: 32vh;
+	}
+	.atlet .runner{
+		width: 100%;
+	}
+	.negr{
+		width: 100%;
+	}
+	.team .girl{
+		width: 100%;
+	}
+	.square{
+		margin-left: 35vh;
+	}
+	.fon{
+		position: absolute;
+	}
+	.text_atlet p{
+		color: yellow;
+	}
+	.text_atlet2 p{
+		color: yellow;
+	}
+	header h1{
+		font-size: 70px;
+	}
+	header .lines{
+		left: 210px;
+    	height: 150px;
+    	top: -499px;
+	}
+	.seto .center .lines {
+		top: -100px;
+		left: 420px;
+		height: 150px;
+	}
+	.seto .center .lines2 {
+		top: -235px;
+		left: 225px;
+	}
+	.seto .logos {
+		height: 75px;
+		margin-left: 12%;
+	}
+	header h1{
+		font-size: 45px;
+	}
+	
+	.seto{
+		max-height: 820px;
+	}
+}	
 
 @media(max-width: 576px){
-	header h1, .container2 .block1 h2{
+	header h1{
 		font-size: 33px;
 	}
 	.container2 img{
@@ -661,9 +1086,153 @@ footer .logo {
 		float: none;
 		display: block;
 		margin-top: 0;
+		width: 100%;
+	}
+	.container3 img{
+		margin-top: -86%;
+    	width: 100%;
+	}
+	.container3 .block1 h2{
+		margin-top: 94%;
+	}
+	.container2 .block1 h2{
+		padding-left: 0;
+		font-size: 55px;
+	}
+	.container2 .text_center{
+		padding-left: 0;
+	}
+	.container2 .text_bottom{
+		padding-left: 0;
+	}
+	.container2 .block3 .text_center{
+		padding-left: 0;
+	}
+	.container2 .block3 .text_bottom1{
+		padding-left: 0;
+		
+	}
+	.seto .center h1{
+		font-size: 33px;
+	}
+	.seto .logos {
+		margin-top: 175px;
+		height: 67px;
+	}
+	.container3 .block1 h2{
+		font-size: 55px;
+	}
+	.container3 .text_center{
+		font-size: 35px;
+	}
+	.container3 .text_bottom{
+		font-size: 30px;
+	}
+	.container3 .text_center span{
+		font-size: 25px;
+	}
+	.container3 .text_bottom1{
+		font-size: 30px;
+	}
+	.seto .center .lines{
+		top: -75px;
+    	left: 335px;
+    	height: 110px;
+	}
+	.seto .center .lines2{
+		top: -175px;
+		left: 207px;
+		height: 85px;
+	}
+	.seto .center h1{
+		margin-top: -60px;
+	}
+	.seto .buttons{
+		margin-top: -100px;
+	}
+	.seto .center p{
+		font-size: 14px;
+		margin-top: -2px;
+	}
+	.text_atlet h2{
+		margin-top: -18vh;
+	}
+	.atlet .fon .val{
+		margin-top: 36vh;
+	}
+	.text_atlet{
+		margin-top: 32vh;
+	}
+	.container2 .text_center{
+		font-size: 35px;
+	}
+	.container2 .text_center span{
+		font-size: 25px;
+	}
+	.container2 .text_bottom{
+		font-size: 30px;
+		padding-bottom: 13px;
+	}
+	.container2 .block1 h2{
+		margin-top: 50px;
+	}
+
+	.container2 .text_center .white{
+		font-size: 25px;
+	}
+	.container2 .block3 .text_bottom1{
+		font-size: 30px;
+	}
+	.container2 .block3{
+		height: 210px;
 	}
 }
+@media(max-width: 530px){
+	.square h3{
+		margin: 22px;
+	
+	}
+	.square{
+		height: 70px;
+		width: 70px;
+		margin-left: 30vh;
+	}
+	header .logo{
+		margin: 55px 28%;
+	}
+	header .right_text{
+		margin: 0;
+		text-align: center;
+		float: none;
+	}
+	header .menu{
+		display: grid;
+	}
+	header h1{
+		font-size: 27px;
+	}
+	header .lines{
+		left: 180px;
+    height: 100px;
+    top: -610px;
+	}
+	header .menu li a{
+		font-size: 23px;
+	}
+	.end{
+		flex-direction: column;
+	}
+	.end .right_text{
+		margin-left: 23%;
+	}
+	.seto .buttons a:first-child{
+		margin-right: 30px;
+	}
+	header .menu li{
+		margin-top: 10px;
+	}
 
+}
 @media(max-width: 425px){
 	header h1 span{
 		float: none;
@@ -684,5 +1253,128 @@ footer .logo {
 	}
 	header{
 		background-position-x: 45%;
+	}
+}
+
+@media(max-width: 320px){
+	header .buttons a{
+		width: 170px;
+		font-size: 10px;
+	}
+	header .buttons{
+		margin-top: 5vh;
+	}
+	header .logo{
+		margin: 20px 33%;
+	}
+	.atlet .runner{
+		height: 43vh;
+	}
+	.square {
+		margin-left: 20vh;
+	}
+	.seto .center h1{
+		font-size: 20px;
+		margin-top: -37px;
+	}
+	.seto .center p{
+		font-size: 8px;
+	}
+	.seto .logos{
+		height: 43px;
+		margin-top: 110px;
+	}
+	.negr{
+		height: 43vh;
+	}
+	.team .girl{
+		height: 43vh;
+	}
+	.text_atlet p{
+		font-size: 10px;
+	}
+	.text_atlet2 h2{
+		font-size: 20px;
+	}
+	.text_atlet2 p{
+		font-size: 10px;
+	}
+	.text_atlet h2{
+		font-size: 20px;
+	}
+	.container3 .text_bottom{
+		padding-right: 0;
+	}
+	.seto .buttons a{
+		width: 130px;
+		font-size: 9px;
+	}
+	.seto .center .lines2{
+		height: 60px;
+		top: -135px;
+		left: 110px;
+		
+	}
+	.seto .center .lines{
+		top: -60px;
+		left: 195px;
+		height: 90px;
+		width: 4px;
+	}
+	.seto .buttons .as{
+		margin-left: 14px;
+	}
+	.seto .buttons .gp {
+		margin-left: 66px;
+	}
+	header h1{
+		margin-top: 6vh;
+		font-size: 20px;
+	}
+	header .menu li{
+		margin-top: 1px;
+	}
+	header{
+		height: 100vh;
+	}
+	header h1 .two{
+		margin-right: 0;
+	}
+	header .lines{
+		width: 4px;
+		left: 140px;
+    	height: 85px;
+    	top: -385px;
+	}
+	header .buttons .as{
+		margin-left: 10px;
+	}
+	.container3 .block3 .center .bottom_p{
+		padding-top: 10px;
+	}
+	.end .right_text{
+		font-size: 10px;
+	}
+	footer .logo{
+		margin-top: 20px;
+		margin-left: 30px;
+	}
+	.square {
+		margin-left: 36vh;
+	}
+	.container2 .text_bottom{
+		font-size: 20px;
+	}
+	.container2 .block3 .text_bottom1{
+		font-size: 20px;
+	}
+	header .menu li a{
+		font-size: 15px;
+	}
+	.container3 .text_bottom{
+		font-size: 20px;
+	}
+	.container3 .text_bottom1{
+		font-size: 20px;
 	}
 }
